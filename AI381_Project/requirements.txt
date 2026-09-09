@@ -1,0 +1,10 @@
+# Runtime: none. The project uses only the Python standard library
+# (json, random, heapq, collections, argparse, and tkinter for the viewer).
+#
+# tkinter ships with CPython but is packaged separately on some Linux distros:
+#   Debian/Ubuntu:  sudo apt install python3-tk
+#   Fedora:         sudo dnf install python3-tkinter
+# It is only needed for the animation; `--headless` runs without it.
+
+# Development / testing
+pytest>=7.0
